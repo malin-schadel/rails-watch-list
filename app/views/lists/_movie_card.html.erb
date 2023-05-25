@@ -1,0 +1,11 @@
+<div class="card">
+  <img src="<%= movie.poster_url %>" class="card-img-top" alt="poster of <%= movie.title %>">
+  <div class="card-body">
+    <h5 class="card-title"><%= movie.title %></h5>
+    <p class="card-text"><%= movie.overview %></p>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">Rating: <%= movie.rating %> / 10</li>
+    <li class="list-group-item">Commment: "<%= bookmark.comment %>"</li>
+  </ul>
+</div>
